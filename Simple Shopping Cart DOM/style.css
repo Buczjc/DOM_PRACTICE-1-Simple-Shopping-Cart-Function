@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Items {
+  border: 2px black solid;
+  margin-bottom: 15px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.item-container {
+  display: inline-block;
+  margin: 20px;
+}
+
+.cart {
+  border: 2px black solid;
+  width: 50%;
+  min-height: 50vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.cart h1 {
+  margin-bottom: 20px;
+}
+
+#candy_ADD_cart,
+#house_ADD_cart,
+#dog_ADD_cart {
+  background-color: green;
+  color: white;
+}
+
+#checkout_btn {
+  border: none;
+  background-color: yellow;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgb(168, 167, 167);
+  cursor: pointer;
+}
+
+#checkout_btn:hover {
+  background-color: rgb(203, 203, 2);
+  color: rgb(119, 118, 118);
+}
